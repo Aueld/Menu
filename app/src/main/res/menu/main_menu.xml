@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/file"
+        android:title="File"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/phone_call"
+        android:icon="@drawable/baseline_perm_phone_msg_black_24dp"
+        android:title="전화걸기"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/any_activity"
+        android:title="아무거나"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/file_new"
+                android:title="New"/>
+            <item
+                android:id="@+id/file_open"
+                android:title="Open"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/help"
+        android:title="도우미"
+        app:showAsAction="ifRoom"/>
+</menu>
